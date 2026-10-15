@@ -1,0 +1,508 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./asset/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="./asset/img/logo.png" alt="logo" />
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="" class="active">Trang Chủ </a></li>
+          <li><a href="#about">Giới Thiệu </a></li>
+          <li><a href="#projects">Dự Án</a></li>
+          <li><a href="#services">Dịch Vụ</a></li>
+          <li><a href="#contact">Liên Hệ </a></li>
+        </ul>
+      </nav>
+      <div class="search-box" id="search">
+        <input class="search-input" type="text" placeholder="Tìm kiếm">
+        <button><i class="fa-brands fa-sistrix"></i></button>
+        <div class="search-dropdown" id="search-dropdown">
+          <div class="dropdown-title">Xu hướng tìm kiếm</div>
+          <div class="suggest-tags">
+            <span class="tag btn">Website</span>
+            <span class="tag btn">java</span>
+            <span class="tag btn">c++</span>
+            <span class="tag btn">Website design</span>
+          </div>
+        </div>
+      </div>
+      <div class="header-action">
+        <a href="./login.html" class="btn">
+          <i class="fa-solid fa-user-tie"></i>
+          <span>Đăng Nhập</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- section-hero -->
+    <section class="section-hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-heading">
+            <span class="hero-subtitle">Hello, I'm</span>
+            <h1 class="hero-title">Nguyễn Văn Bảo</h1>
+          </div>
+          <h2 class="hero-job">
+            Lập trình viên giao diện người dùng <br />
+            (Frontend Developer) Sinh viên <br />
+            Công nghệ Thông tin
+          </h2>
+          <p class="desc hero-desc">
+            Đam mê tạo ra những trang web hiện đại, đáp ứng tốt và thân <br />
+            thiện với người dùng.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn-primary">
+              <span>Xem dự án</span>
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </a>
+            <a href="#contact" class="btn"> Liên hệ với tôi</a>
+          </div>
+          <div class="hero-brand">
+            <i class="fa-brands fa-google"></i>
+            <span>Google</span>
+            <i class="fa-brands fa-dribbble"></i>
+            <span>Dribbble</span>
+            <i class="fa-brands fa-spotify"></i>
+            <span>Spotify</span>
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+            <i class="fa-brands fa-figma"></i>
+            <span>Figma</span>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="./asset/img/img5.png" alt="" />
+          <div class="quote-card">
+            <i class="fa-solid fa-quote-left"></i>
+            <p class="desc">
+              Thiết kế tốt không chỉ đơn thuần là đẹp mắt. <br />
+              Nó còn là về việc giải quyết vấn đề và làm cho <br />
+              mọi thứ trở nên đơn giản đối với người dùng.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end section-hero -->
+
+    <!-- section services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services-heading">
+          <span class="services-subtitle">Tôi làm gì?</span>
+          <h2 class="services-title">Dịch Vụ Của Tôi</h2>
+          <div class="line services-line"></div>
+        </div>
+        <div class="services-content">
+          <div class="services-left">
+            <div class="services-left-title">Tôi làm gì?</div>
+            <p class="desc services-left-desc">
+              Tôi thiết kế và phát triển giao diện website <br />
+              hiện đại, responsive trên mọi thiết bị với trải <br />
+              nghiệm người dùng tốt.
+            </p>
+            <div class="services-image">
+              <img src="./asset/img/1.png" alt="" />
+            </div>
+          </div>
+          <div class="services-right">
+            <div class="service-item">
+              <div class="icon-wrap">
+                <div class="service-icon">
+                  <i class="fa-solid fa-paintbrush"></i>
+                </div>
+                <div class="service-line"></div>
+              </div>
+              <div class="service-info">
+                <h3 class="service-title">Thiết kế Website</h3>
+                <p class="desc service-desc">
+                  Thiết kế giao diện website hiện đại, trực quan và thân thiện
+                  với người dùng.
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="icon-wrap">
+                <div class="service-icon">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div class="service-line"></div>
+              </div>
+              <div class="service-info">
+                <h3 class="service-title">Thiết kế Ứng dụng</h3>
+                <p class="desc service-desc">
+                  Thiết kế trang đích chuyên nghiệp giúp tăng tỷ lệ chuyển đổi
+                  khách hàng
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="icon-wrap">
+                <div class="service-icon">
+                  <i class="fa-solid fa-pager"></i>
+                </div>
+                <div class="service-line"></div>
+              </div>
+              <div class="service-info">
+                <h3 class="service-title">Thiết kế Landing Page</h3>
+                <p class="desc service-desc">
+                  Thiết kế trang đích chuyên nghiệp giúp tăng tỷ lệ chuyển đổi
+                  khách hàng.
+                </p>
+              </div>
+            </div>
+            <div class="service-item">
+              <div class="icon-wrap">
+                <div class="service-icon">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+              </div>
+              <div class="service-info">
+                <h3 class="service-title">Phát triển Giao diện Web</h3>
+                <p class="desc service-desc">
+                  Chuyển đổi thiết kế thành website hoàn chỉnh bằng HTML, CSS
+                  và JavaScript.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--end section services -->
+
+    <!-- section-about  -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-image">
+          <img src="./asset/img/7.png" alt="" />
+        </div>
+        <div class="about-content">
+          <h2 class="about-title">Về Tôi</h2>
+          <div class="lines about-lines"></div>
+          <p class="desc about-desc">
+            Tôi là Nguyễn Văn Bảo, sinh viên ngành Công nghệ Thông tin với
+            niềm đam mê phát triển website và giao diện người dùng. Tôi luôn
+            học hỏi công nghệ mới và mong muốn tạo ra các sản phẩm web hiện
+            đại, thân thiện với người dùng.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fa-solid fa-circle-user"></i>
+              </div>
+              <div class="info-content">
+                <span class="desc info-lable">Họ và tên:</span>
+                <h5 class="info-value">Nguyễn Văn Bảo</h5>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="info-content">
+                <span class="desc info-lable">Địa chỉ:</span>
+                <h5 class="info-value">Phường Thạnh Mỹ Tây TP.Hồ Chí Minh</h5>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fa-solid fa-cake-candles"></i>
+              </div>
+              <div class="info-content">
+                <span class="desc info-lable">Tuổi:</span>
+                <h5 class="info-value">20</h5>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fa-brands fa-dev"></i>
+              </div>
+              <div class="info-content">
+                <span class="desc info-lable">Chuyên ngành:</span>
+                <h5 class="info-value">Công Nghệ Thông Tin</h5>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fa-solid fa-envelope-circle-check"></i>
+              </div>
+              <div class="info-content">
+                <span class="desc info-lable">Email:</span>
+                <h5 class="info-value">1192006nguyenbao@gmail.com</h5>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fa-solid fa-square-phone"></i>
+              </div>
+              <div class="info-content">
+                <span class="desc info-lable">Số Điện Thoại:</span>
+                <h5 class="info-value">0377734257</h5>
+              </div>
+            </div>
+          </div>
+          <div class="about-button">
+            <a href="" class="btn">
+              <span>Tải Xuống</span>
+              <i class="fa-solid fa-download"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end section-about  -->
+
+    <!-- section-project  -->
+    <section class="project" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-subtitle">DỰ ÁN CỦA TÔI</span>
+          <h2 class="title">Các dự án nổi bật</h2>
+          <div class="line services-line"></div>
+        </div>
+        <div class="project-filter">
+          <a href="" class="btn-primary btn-filter"><span>All</span></a>
+          <a href="" class="btn btn-filter"><span>WEBSITE</span></a>
+          <a href="" class="btn btn-filter"><span>JAVA</span></a>
+          <a href="" class="btn btn-filter"><span>C++</span></a>
+          <a href="" class="btn btn-filter"><span>Web Design</span></a>
+        </div>
+        <div class="project-grid" id="project-grid">
+          <!-- <div class="project-card">
+            <div class="project-image">
+              <img src="./asset/img/project-1.jpg" alt="" />
+            </div>
+            <div class="project-info">
+              <div class="project-content">
+                <span class="project-category">Phát triển website</span>
+                <h6 class="project-title">Phát triển web</h6>
+              </div>
+              <div class="project-action">
+                <a href=""><i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./asset/img/stell.png" alt="" />
+            </div>
+            <div class="project-info">
+              <div class="project-content">
+                <span class="project-category">Website Công Ty Thép</span>
+                <h6 class="project-title">Phát triển web</h6>
+              </div>
+              <div class="project-action">
+                <a href=""><i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./asset/img/project-2.png" alt="" />
+            </div>
+            <div class="project-info">
+              <div class="project-content">
+                <span class="project-category">Hệ thống quản lý sinh viên</span>
+                <h6 class="project-title">ứng dụng java</h6>
+              </div>
+              <div class="project-action">
+                <a href=""><i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./asset/img/project-3.png" alt="" />
+            </div>
+            <div class="project-info">
+              <div class="project-content">
+                <span class="project-category">Hệ thống đố vui trực tuyến</span>
+                <h6 class="project-title">ứng dụng c++</h6>
+              </div>
+              <div class="project-action">
+                <a href=""><i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./asset/img/web disgn.png" alt="" />
+            </div>
+            <div class="project-info">
+              <div class="project-content">
+                <span class="project-category">Trang web khởi nghiệp công nghệ</span>
+                <h6 class="project-title">Thiết kế website</h6>
+              </div>
+              <div class="project-action">
+                <a href=""><i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+              <img src="./asset/img/retaurent.png" alt="" />
+            </div>
+            <div class="project-info">
+              <div class="project-content">
+                <span class="project-category">Trang web nhà hàng</span>
+                <h6 class="project-title">Phát triển website</h6>
+              </div>
+              <div class="project-action">
+                <a href=""><i class="fa-solid fa-plus"></i></a>
+              </div>
+            </div>
+          </div> -->
+        </div>
+      </div>
+      <div class="pagination">
+        <span id="paginationPre" class="pagination__button"><i class="fa-solid fa-angles-left"></i></span>
+        <span id="paginationNumber" class="pagination__number">1</span>
+        <!-- <span class="pagination__number">2</span>
+        <span class="pagination__number">3</span>
+        <span class="pagination__number">...</span>
+        <span class="pagination__number">20</span> -->
+        <span id="paginationNext" class="pagination__button"><i class="fa-solid fa-angles-right"></i></span>
+      </div>
+    </section>
+    <!-- end section-project  -->
+
+    <!-- section-contact  -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-content">
+          <div class="about-heading">
+            <h3 class="contact-title">Liên Hệ Với Tôi</h3>
+            <p class="desc contact-desc">
+              Tôi luôn sẵn sàng trao đổi về các dự án lập trình, <br />
+              thiết kế website và các cơ hội hợp tác, phát triển lâu dài.
+            </p>
+          </div>
+          <div class="contact-social">
+            <a href=""><i class="fa-brands fa-google"></i></a>
+            <a href=""><i class="fa-brands fa-dribbble"></i></a>
+            <a href=""><i class="fa-brands fa-spotify"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-figma"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="">
+            <div class="form-row">
+              <input type="text" placeholder="Tên của bạn" />
+              <input type="email" placeholder="Email của bạn" />
+            </div>
+            <input type="text" placeholder="Chủ đề" />
+            <textarea name="" id="" placeholder="Nội dung..."></textarea>
+            <div class="btn-primary form-button">
+              <span>Gửi Ngay</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end section-contact  -->
+
+    <!-- footer  -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-main">
+          <div class="footer-col">
+            <div class="logo">
+              <a href="">
+                <img src="./asset/img/logo.png" alt="" />
+              </a>
+            </div>
+            <p class="desc footer-desc">
+              Tôi là một nhà thiết kế UI/UX tự do, tập trung vào các thiết kế
+              gọn gàng, có tỷ lệ chuyển đổi cao và trải nghiệm người dùng
+              tuyệt vời.
+            </p>
+
+            <div class="socials">
+              <a href=""><i class="fa-brands fa-google"></i></a>
+              <a href=""><i class="fa-brands fa-dribbble"></i></a>
+              <a href=""><i class="fa-brands fa-spotify"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-brands fa-figma"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-title">Liên kết nhanh</h3>
+            <div class="lines footer-lines"></div>
+            <ul class="menu-footer">
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Trang chủ</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Giới thiệu</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Dự án </a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Dịch vụ</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-solid fa-angle-right"></i>Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-title">Thông Tin Liên Hệ</h3>
+            <div class="lines footer-lines"></div>
+            <p class="contact-item">
+              <i class="fa-solid fa-envelope"></i>119nguyenbao@gmail.com
+            </p>
+            <p class="contact-item">
+              <i class="fa-solid fa-phone"></i>0377734257
+            </p>
+            <p class="contact-item">
+              <i class="fa-solid fa-location-dot"></i> TP.HCM, Việt Nam
+            </p>
+            <p class="contact-item">
+              <i class="fa-solid fa-clock"></i> Thứ 2 - Thứ 6: 9AM - 6PM
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer  -->
+  </main>
+  <div class="contact-fexid">
+    <a href="https://zalo.me/0377734257" target="_blank" class="contact-zalo">
+      <img src="./asset/img/zalosvg.svg" alt="zalo">
+    </a>
+    <a href="https://m.me/nguyen.van.bao.945370" target="_blank">
+      <img src="./asset/img/messanger.svg" alt="meesanger" class="contact-messanger">
+    </a>
+  </div>
+
+
+
+  <script type="module" src="./asset/js/fetchAPI.js"></script>
+  <script type="module" src="./asset/js/panigation.js"></script>
+  <script type="module" src="./asset/js/search.js"></script>
+
+</body>
+
+</html>

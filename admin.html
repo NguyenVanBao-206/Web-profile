@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="dashboard-section">
+      <div class="container">
+        <div class="dashboard">
+          <aside class="asidebar">
+            <div class="logo-dashboard">
+              <img src="./asset/img/logo.png" alt="" />
+            </div>
+            <ul class="menu-dashboard">
+              <li>
+                <a href="" class="active"
+                  ><i class="fa-solid fa-table-cells-large"></i>Bảng Điều
+                  Khiển</a
+                >
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-folder-closed"></i>Dự Án</a>
+              </li>
+              <li>
+                <a href=""><i class="fa-solid fa-envelope"></i>Tin Nhắn</a>
+              </li>
+              <li>
+                <a href=""
+                  ><i class="fa-solid fa-right-from-bracket"></i>Đăng Xuất</a
+                >
+              </li>
+            </ul>
+            <div class="profile">
+              <div class="avatar-admin">
+                <img src="./asset/img/images.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h4 class="name-admin">Nguyễn Văn A</h4>
+                <p class="desc">Admin</p>
+              </div>
+            </div>
+          </aside>
+          <main class="main-content">
+            <header class="dashboard-header">
+              <div class="header-left">
+                <h1>Bảng Điều Khiển</h1>
+              </div>
+              <div class="header-right">
+                <a href="" class="icon"
+                  ><i class="fa-regular fa-calendar-days"></i
+                ></a>
+                <span>Ngày 12 tháng 6 năm 2026</span>
+                <a href="" class="icon Notification"
+                  ><i class="fa-solid fa-bell"></i
+                ></a>
+              </div>
+            </header>
+            <section class="stats">
+              <div class="stats-wrap">
+                <div class="card">
+                  <div class="icon icon-dashboard">
+                    <i class="fa-regular fa-calendar-days"></i>
+                  </div>
+                  <div class="content-card">
+                    <p>Tổng Dự Án</p>
+                    <h3>06</h3>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="icon icon-dashboard">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div class="content-card">
+                    <p>Tổng Liên Hệ</p>
+                    <h3>12</h3>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section class="project">
+              <div class="project-header">
+                <h2 class="project-title">Danh sách dự án</h2>
+                <button class="btn-primary btn-add">
+                  <a href=""><i class="fa-solid fa-plus"></i>Thêm dự án</a>
+                </button>
+              </div>
+              <div class="projects-table">
+                <table border="1" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>ID</th>
+                      <th>Tên Dự Án</th>
+                      <th>Danh Mục</th>
+                      <th>Ngày Đăng</th>
+                      <th>Thao Tác</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>01</td>
+                      <td>Phát triển website</td>
+                      <td>Trang web</td>
+                      <td>12/06/2026</td>
+                      <td>
+                        <div class="edit-button">
+                          <a href="" class="btn-edit"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a href="" class="btn-delete"
+                            ><i class="fa-regular fa-trash-can"></i
+                          ></a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>02</td>
+                      <td>Website Công Ty Thép</td>
+                      <td>Trang web</td>
+                      <td>12/04/2026</td>
+                      <td>
+                        <div class="edit-button">
+                          <a href="" class="btn-edit"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a href="" class="btn-delete"
+                            ><i class="fa-regular fa-trash-can"></i
+                          ></a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>03</td>
+                      <td>Hệ thống quản lý sinh viên</td>
+                      <td>ứng dụng java</td>
+                      <td>19/03/2026</td>
+                      <td>
+                        <div class="edit-button">
+                          <a href="" class="btn-edit"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a href="" class="btn-delete"
+                            ><i class="fa-regular fa-trash-can"></i
+                          ></a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>04</td>
+                      <td>Hệ thống đố vui trực tuyến</td>
+                      <td>ứng dụng c++</td>
+                      <td>15/04/2026</td>
+                      <td>
+                        <div class="edit-button">
+                          <a href="" class="btn-edit"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a href="" class="btn-delete"
+                            ><i class="fa-regular fa-trash-can"></i
+                          ></a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>05</td>
+                      <td>Trang web khởi nghiệp công nghệ</td>
+                      <td>Thiết kế web</td>
+                      <td>14/02/2026</td>
+                      <td>
+                        <div class="edit-button">
+                          <a href="" class="btn-edit"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a href="" class="btn-delete"
+                            ><i class="fa-regular fa-trash-can"></i
+                          ></a>
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>06</td>
+                      <td>Trang web nhà hàng</td>
+                      <td>Phát triển web</td>
+                      <td>22/02/2026</td>
+                      <td>
+                        <div class="edit-button">
+                          <a href="" class="btn-edit"
+                            ><i class="fa-solid fa-pen-to-square"></i
+                          ></a>
+                          <a href="" class="btn-delete"
+                            ><i class="fa-regular fa-trash-can"></i
+                          ></a>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </section>
+          </main>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

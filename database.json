@@ -1,0 +1,109 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Phát triển website Dashboard",
+      "subtitle": "Phát triển web",
+      "image": "./asset/img/project-1.jpg",
+      "category": "web-development"
+    },
+    {
+      "id": 2,
+      "title": "Website Công Ty Thép Hòa Phát",
+      "subtitle": "Phát triển web",
+      "image": "./asset/img/project-2.png",
+      "category": "web-development"
+    },
+    {
+      "id": 3,
+      "title": "Hệ thống quản lý sinh viên",
+      "subtitle": "ứng dụng java",
+      "image": "./asset/img/project-3.png",
+      "category": "java"
+    },
+    {
+      "id": 4,
+      "title": "Hệ thống đố vui trực tuyến",
+      "subtitle": "ứng dụng c++",
+      "image": "./asset/img/project-4.jpg",
+      "category": "cpp"
+    },
+    {
+      "id": 5,
+      "title": "Trang web khởi nghiệp công nghệ",
+      "subtitle": "Thiết kế website",
+      "image": "./asset/img/project-5.jpg",
+      "category": "ui-ux"
+    },
+    {
+      "id": 6,
+      "title": "Trang web nhà hàng ẩm thực",
+      "subtitle": "Phát triển website",
+      "image": "./asset/img/project-6.jpg",
+      "category": "web-development"
+    },
+    {
+      "id": 7,
+      "title": "Hệ thống quản lý kho hàng",
+      "subtitle": "ứng dụng java",
+      "image": "./asset/img/project-7.jpg",
+      "category": "java"
+    },
+    {
+      "id": 8,
+      "title": "Ứng dụng Chat thời gian thực",
+      "subtitle": "Phát triển web",
+      "image": "./asset/img/project-8.png",
+      "category": "web-development"
+    },
+    {
+      "id": 9,
+      "title": "Game Caro local network",
+      "subtitle": "ứng dụng c++",
+      "image": "./asset/img/project-9.jpg",
+      "category": "cpp"
+    },
+    {
+      "id": 10,
+      "title": "Giao diện App Mobile E-Learning",
+      "subtitle": "Thiết kế website",
+      "image": "./asset/img/project-10.jpg",
+      "category": "ui-ux"
+    },
+    {
+      "id": 11,
+      "title": "Website Bất Động Sản",
+      "subtitle": "Phát triển website",
+      "image": "./asset/img/project-11.jpg",
+      "category": "web-development"
+    },
+    {
+      "id": 12,
+      "title": "Phần mềm thi trắc nghiệm",
+      "subtitle": "ứng dụng java",
+      "image": "./asset/img/project-12.jpg",
+      "category": "java"
+    },
+    {
+      "id": 13,
+      "title": "Ứng dụng quản lý lịch trình",
+      "subtitle": "Thiết kế website",
+      "image": "./asset/img/project-13.jpg",
+      "category": "ui-ux"
+    },
+    {
+      "id": 14,
+      "title": "Website tin tức tự động",
+      "subtitle": "Phát triển web",
+      "image": "./asset/img/project-14.jpg",
+      "category": "web-development"
+    },
+    {
+      "id": 15,
+      "title": "Phần mềm tính toán ma trận",
+      "subtitle": "ứng dụng c++",
+      "image": "./asset/img/project-15.jpg",
+      "category": "cpp"
+    }
+  ]
+}
