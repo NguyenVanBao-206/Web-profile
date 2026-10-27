@@ -2,12 +2,20 @@
   "name": "profile",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/NguyenVanBao-206/Web-profile#readme",
+  "bugs": {
+    "url": "https://github.com/NguyenVanBao-206/Web-profile/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://NguyenVanBao-206@github.com/NguyenVanBao-206/Web-profile.git"
+  },
   "license": "ISC",
   "author": "",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch database.json",
+    "start": "json-server --watch db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
