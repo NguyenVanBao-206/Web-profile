@@ -1463,13 +1463,7 @@ td {
     margin: 20px;
   }
 
-  input[type="date"] {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 100%;
-    min-height: 44px;
-    color: #6C6C6C;
-}
+
 }
 
 /* css form register  */
