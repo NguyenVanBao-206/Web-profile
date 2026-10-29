@@ -115,6 +115,7 @@ header .container {
   padding: 10px 70px;
   align-items: center;
   box-sizing: border-box;
+  justify-content: space-evenly;
 }
 
 /* header .container {
@@ -221,6 +222,17 @@ nav {
 /* section-hero  */
 html {
   scroll-behavior: smooth;
+}
+
+.header-action ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.header-action .btn  {
+  margin-left: 5px;
 }
 
 .section-hero {
@@ -935,7 +947,15 @@ html {
     grid-template-columns: 1fr;
   }
 }
-
+/* userTrigger */
+.userTrigger {
+  color: var(--secondary-color);
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+/*end userTrigger  */
 /* form login  */
 .login {
   background-color: var(--primary-color);
@@ -997,7 +1017,7 @@ html {
   margin-bottom: 20px;
 }
 
-.btn-login {
+.btn-login, .btn-register {
   width: 100%;
 }
 
@@ -1365,15 +1385,128 @@ td {
   }
 
   .search-box input {
-    width: 120px;
+    width: 150px;
   }
 
   .header-action .btn {
     width: auto;
     padding: 8px 10px;
   }
+
+  .header-action .authMenu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 1000;
+    background-color: var(--primary-color);
+  }
+  .authMenu.show {
+    display: block !important; 
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+
+  .menu-link {
+    margin-bottom: 7px;
+  }
+
+
+  .userTrigger {
+    display: block;
+    margin-right: 30px;
+    padding: 20px;
+  }
 }
 
+
+
+@media screen and (max-width: 1023px) {
+  .header-action .authMenu {
+    display: none !important;
+    position: absolute;
+    top: 100%;
+    right: 0px;
+    z-index: 1000;
+    background-color: var(--primary-color);
+  }
+
+
+  .authMenu.show {
+    display: block !important; 
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+
+
+  .menu-link {
+    margin-bottom: 7px;
+  }
+
+
+  .userTrigger {
+    display: block;
+    padding: 20px;
+  }
+  
+}
+
+/* css form register  */
+.register {
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register .cart {
+  width: 450px;
+  background: var(--background-color); 
+  padding: 20px 40px;
+  border-radius: 15px;
+  border: 1px solid #4E2814;
+}
+
+.register-logo img {
+  width: 50%;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
+.register-heading {
+  text-align: center;
+  padding: 20px;
+}
+
+.register-title {
+  color: var(--text-color);
+  font-size: 15px;
+  margin-bottom: 7px;
+  margin-top: 10px;
+}
+.register-desc {
+  color: #6C6C6C;
+  font-size: 14px;
+}
+
+.form-group label {
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.login-redirect {
+  margin: 10px ;
+  color: #6C6C6C;
+  text-align: center;
+}
+
+.login-redirect a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+/* css form register end */
 
 
 .contact-fexid {
