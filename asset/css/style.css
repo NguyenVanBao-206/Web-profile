@@ -1449,7 +1449,19 @@ td {
     display: block;
     padding: 20px;
   }
+  .register .cart {
+    width: 370px !important;
+    margin: 20px auto;
+  }
   
+}
+
+
+@media  screen and (max-width: 424.99px) {
+  .register .cart {
+    width: 340px !important;
+    margin: 20px;
+  }
 }
 
 /* css form register  */
